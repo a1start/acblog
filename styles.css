@@ -65,7 +65,8 @@ html {
   font-size: 1.2rem;
   font-family: "Pacifico", cursive;
   color: #1d4ed8;
-  padding-left: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 /* END OF LOGO CSS */
 
@@ -201,7 +202,7 @@ html {
 /* ABOUT CSS */
 /*  */
 
-.about {
+.contact {
   display: flex;
   flex-direction: column;
   height: 70vh;
@@ -210,37 +211,37 @@ html {
   font-family: "Noto Sans Linear B", sans-serif;
 }
 
-.about1,
-.about2 {
+.contact1,
+.contact2 {
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.about1 {
+.contact1 {
   background-color: rgb(219, 219, 219);
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
 
-.about1 p {
+.contact1 p {
   letter-spacing: 5px;
   word-spacing: 30px;
 }
 
-.about2 {
+.contact2 {
   text-align: center;
   background-color: rgb(47, 47, 47);
 }
 
-.about2 p {
+.contact2 p {
   color: #fff;
   font-size: 1rem;
 }
 
-.about2 p a {
+.contact2 p a {
   color: #fff;
 }
 
@@ -265,11 +266,14 @@ html {
   .article-page-main {
     width: 80vw;
   }
+  .article-page-main img {
+    width: 80vw;
+  }
   .logo-pic {
     width: 100%;
   }
-  .logo-blog {
-    padding-left: 6rem;
+  .contact {
+    width: 80%;
   }
 }
 
@@ -280,6 +284,12 @@ html {
   .article-page-main {
     width: 70vw;
   }
+  .article-page-main img {
+    width: 70vw;
+  }
+  .contact {
+    width: 70%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -288,6 +298,12 @@ html {
   }
   .article-page-main {
     width: 60vw;
+  }
+  .article-page-main img {
+    width: 60vw;
+  }
+  .contact {
+    width: 60%;
   }
 }
 
