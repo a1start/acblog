@@ -209,7 +209,8 @@ html {
   margin-top: 2rem;
 }
 
-.article-page-main ol {
+.article-page-main ol,
+.article-page-main ul {
   padding-left: 1rem;
   line-height: 1.6;
 }
